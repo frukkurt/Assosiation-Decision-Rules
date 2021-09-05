@@ -248,6 +248,11 @@ But from the above graph, it is not possible to tell which products should not b
   <img width="750" alt="Screen Shot 2564-09-05 at 23 03 21" src="https://user-images.githubusercontent.com/63940535/132133488-4a7894a9-c531-45c8-a647-a9bfa3557fdf.png">
 </p>
 
+<p align="center">
+  <img width="650" alt="Screen Shot 2564-09-06 at 01 55 44" src="https://user-images.githubusercontent.com/63940535/132138244-87451d34-57c4-4733-92af-d9311d9eb92c.png">
+</p>
+
+
 
 **When we plot confidence and lift, we get the distribution as shown in the graph below and then find the optimal pareto.**
 
@@ -318,16 +323,19 @@ From both tables when considering What appears in the **Bundle** table is that `
 <p align="center">
   <img width="1000" alt="Screen Shot 2564-09-06 at 00 01 22" src="https://user-images.githubusercontent.com/63940535/132135158-6152d8f5-7c4a-4747-99a7-8c710f966972.png">
 </p>
-According to `Aassociation rules`, the base section `Strawberry Bingsu-> Bubble` conflicts with  **correlation** , **support correlation** , **lift**  **confidence** , **pareto front** meaning that the original product, possibly a bundle, will not be a **bundle**, so it becomes an **unbundle** instead.
+
+
+According to `Aassociation rules` , the base section `Strawberry Bingsu-> Bubble` conflicts with  `correlation`  `support correlation`  `lift`  `confidence`  `pareto front` meaning that the original product, possibly a bundle, will not be a ***bundle***, so it becomes an ***unbundle*** instead.
 
 ### D.	Deploy
-NO DPLOY IN THIS PROJECT
-
+``
+*NO DPLOY IN THIS PROJECT
+``
 ## V.Conclusion & Discussion
-- By choosing optimization tools such as `linprog` and `Pulp`, `Pulp` is easier to apply and more versatile than `linprog`. The problem is to buy healthy food at the lowest price and get the desired nutrients according to the characteristics user.
-- By comparing to other tools such as `Excel`, which are very popular and easy to use, `Pulp` can provide similar results than `linprog`.
-- From the use of `Colaboratory`, it can be expanded such as If the data is retrieved directly from [7-11](https://www.7eleven.co.th/), then the data should be improved or Interface to get the user, but the `Colaboratory` still have few tools to use May have to wait a while to have tools that are more suitable.
+To adjust the Parameter, it will be divided into 2 parts, the first part belongs to `Association rules` and the second part is `Pareto front`.
 
+  - `Association rules` that in finding the main bundle, Apriori-Algorithm and Fp-Growth get the same number of bundles. The set value is min_support = 0.01 because if more than that, the number of products that can be sold together will be very small, which will determine the It is difficult to correlate and min_threshold (confidence) = 0.01, because the minimum reliability of the rules is required. Some rules support very little, but the confidence is high. Pairs that should all be sold together and use the same min_threshold (confidence) = 0.01, because if the minimum trust of the resulting rule is changed, pairs under the same confidence will be lost. But in the process of unbundling, it is necessary to use Pareto front to help group the products that are probably not worth selling together.
+  - `Pareto front` will set that This section is used to find the pareto front, which is often used in multi-objective problems. We have to set an objective, for example, which point in the graph is not dominated by other points, which is like a point. The set margins we will consider in this study use Pareto front to find both the bundle and the unbundle to take into account the set to be considered. For example, Lift and confidence are set to plot the graph between lift and confidence. If any point is at the bottom edge and is not overlapped by the others, it is pareto front. set to minimum (lift), minimum (confidence), or in confidence and support correlation, it is used as maximum (confidence). maximum. (Support correlation)
 
 ## VI.References
 [1] Sci.Py.org, open-source software for mathematics, science, and engineering [Online] Available: https://docs.scipy.org/doc/scipy-0.15.1/reference/generated/scipy.optimize.linprog.html#r120
