@@ -191,7 +191,9 @@ In this step, we will use association rules to find the relationship between pro
 #
 From the analysis, comparing the Apriori Algorithm and Fp-Growth Algorithm has the same effect. There are many items that are interesting to make a bundle by analyzing support, confidence and lift.
 
-**EXAMPLE**
+
+#
+**EXAMPLE:**
 
 | Transaction   | Item |
 | ----------- | ----------- |
