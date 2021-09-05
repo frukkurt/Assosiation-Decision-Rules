@@ -245,11 +245,8 @@ Lift{Apple > Beer} = Support{Apple,Beer} / (Support{Apple} X Support{Beer}) or C
 But from the above graph, it is not possible to tell which products should not be sold together, so it is necessary to use the method to find the most suitable answer group or Pareto front. The principle is to find a product with a lift value of less than 1. and confidence with the least value and see which one is wrong. Overlay (Dominate), such as car problems. If the car is expensive, it will be more comfortable than a cheap car. But there will be an optimal point where you can choose where to buy the product.
 
 <p align="center">
-  <img width="750" alt="Screen Shot 2564-09-05 at 23 03 21" src="https://user-images.githubusercontent.com/63940535/132133488-4a7894a9-c531-45c8-a647-a9bfa3557fdf.png">
-</p>
-
-<p align="center">
-  <img width="650" alt="Screen Shot 2564-09-06 at 01 55 44" src="https://user-images.githubusercontent.com/63940535/132138244-87451d34-57c4-4733-92af-d9311d9eb92c.png">
+  <img height="400" width="450" alt="Screen Shot 2564-09-05 at 23 03 21" src="https://user-images.githubusercontent.com/63940535/132133488-4a7894a9-c531-45c8-a647-a9bfa3557fdf.png">
+  <img height="400" width="450" alt="Screen Shot 2564-09-06 at 01 55 44" src="https://user-images.githubusercontent.com/63940535/132138244-87451d34-57c4-4733-92af-d9311d9eb92c.png">
 </p>
 
 
