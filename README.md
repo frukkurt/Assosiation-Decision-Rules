@@ -44,7 +44,7 @@ The information used was taken from a dessert shop behind Chiang Mai University.
   - Fp-Growth
   - Support Correlation
   - Graph network analysis
-  - Paleto-front (Dominated)
+  - Paleto-front 
 - **Process**
   - Data science process cycle
 
