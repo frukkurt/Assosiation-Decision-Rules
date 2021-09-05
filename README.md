@@ -327,7 +327,7 @@ According to `Aassociation rules` , the base section `Strawberry Bingsu-> Bubble
 
 ### D.	Deploy
 ``
-*NO DPLOY IN THIS PROJECT
+*NO DEPLOY IN THIS PROJECT
 ``
 ## V.Conclusion & Discussion
 To adjust the Parameter, it will be divided into 2 parts, the first part belongs to `Association rules` and the second part is `Pareto front`.
