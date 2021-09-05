@@ -1,11 +1,12 @@
 <!-- This is the markdown template for the final project of the Building AI course, 
 created by Reaktor Innovations and University of Helsinki. 
 Copy the template, paste it to your GitHub README and edit! -->
-# Assosiation Rules for Decision Making
+# Decision Making for Assosiation Rules  
 
 <p align="center">
-  <img width="800" alt="Screen Shot 2564-09-04 at 23 27 51" src="https://user-images.githubusercontent.com/63940535/132101677-03004918-ddb9-419b-b034-0fdca5708ae7.png">
+  <img width="850" alt="Screen Shot 2564-09-06 at 02 12 39" src="https://user-images.githubusercontent.com/63940535/132138685-46c8a6a2-8b77-488b-bcda-39c0531b4dec.png">
 </p>
+
 
 
 ## I.Introduction
