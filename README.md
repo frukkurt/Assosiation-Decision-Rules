@@ -39,6 +39,7 @@ The information used was taken from a dessert shop behind Chiang Mai University.
 **In this project :**
 - **Tools**
   - `Python`
+  - `Mlxtend`
 - **Algorithm**
   - Apriori algorithm
   - Fp-Growth
@@ -48,7 +49,7 @@ The information used was taken from a dessert shop behind Chiang Mai University.
 - **Process**
   - Data science process cycle
 
-<img width="2000" alt="Screen Shot 2564-09-05 at 13 12 28" src="https://user-images.githubusercontent.com/63940535/132117425-002fcb61-eb02-426c-a666-9f0d963f7e20.png">
+<img width="1000" alt="Screen Shot 2564-09-05 at 13 12 28" src="https://user-images.githubusercontent.com/63940535/132117425-002fcb61-eb02-426c-a666-9f0d963f7e20.png">
 
 
 
@@ -338,13 +339,28 @@ To adjust the Parameter:
   - `Pareto front` will set that This section is used to find the pareto front, which is often used in multi-objective problems. We have to set an objective, for example, which point in the graph is not dominated by other points, which is like a point. The set margins we will consider in this study use Pareto front to find both the bundle and the unbundle to take into account the set to be considered. For example, Lift and confidence are set to plot the graph between lift and confidence. If any point is at the bottom edge and is not overlapped by the others, it is pareto front. set to minimum (lift), minimum (confidence), or in confidence and support correlation, it is used as maximum (confidence). maximum. (Support correlation)
 
 ## VI.References
-[1] Sci.Py.org, open-source software for mathematics, science, and engineering [Online] Available: https://docs.scipy.org/doc/scipy-0.15.1/reference/generated/scipy.optimize.linprog.html#r120
+**BUNDLE & UNBUNDLE PRICING**
+[1] omniaretail.com,*What is Bundle Pricing?*,Omniaretail is dynamic pricing software ,retail software engineer and retail strategy consultant. [Online] Available: [omniaretail.com](https://www.omniaretail.com/blog/what-is-bundle-pricing)
 
-[2] pypi.org, Pulp is an LP modeler written in python. Pulp can generate MPS or LP files and call GLPK, COIN CLP/CBC, CPLEX, and GUROBI to solve linear problems.[online]Available: https://pypi.org/project/PuLP/
+[2] deloitte.com,*Unbundle products and services* ,Deloitte provides industry-leading audit ,consulting, tax and advisory services .[Online]Available: [deloitte.com](https://www2.deloitte.com/us/en/insights/focus/disruptive-strategy-patterns-case-studies/disruptive-strategy-unbundling-strategy-stand-alone-products.html)
 
-[3] FATNEVER.com, online calculator tools for BMR and TDEE, [Online]Available: https://www.fatnever.com/bmr/
+[3] Medium.com,*The Advantages and Disadvantages of Bundle Pricing Strategy* [Online]Available: [Medium.com](https://price2spy.medium.com/the-advantages-and-disadvantages-of-bundle-pricing-strategy-ce479c66e134)
 
-[4]CookingLight.com, Cooking Light is part of the All recipes Food Group.[online] Available: https://www.cookinglight.com/eating-smart/macro-diet-counting-macros-weight-loss-better-nutrition
-[5] GitHub food repository, GitHub for this project [Online]Available:
-https://github.com/frukkurt/food
+**Algorithm**
+
+[4] Apriori algorithm, *Fast algorithms for mining association rules*.[PDF] Available: [Apriori](http://www.vldb.org/conf/1994/P487.PDF)
+
+[5] Fp-Growth, *Practical Data Mining:FP-Growth*.[Slide] Available: [Fp-Growth](https://www.slideshare.net/sitake/practical-data-mining-fpgrowth-44550757)
+
+[6] Support Correlation, *Mining strongly Correlated item pairs in large Transaction databases*.[Paper] Available: [Support Correlation](https://www.researchgate.net/publication/255712975_Mining_Strongly_Correlated_Item_Pairs_in_Large_Transaction_Databases)
+
+[7] Graph network analysis, *An Introduction to Graph Theory and Network Analysis*.[Online] Available: [Graph network analysis](https://www.analyticsvidhya.com/blog/2018/04/introduction-to-graph-theory-network-analysis-python-codes/)
+
+[8] Paleto-front, *Multi-Objective Optimization using Evolutionary Algorithms*.[PDF] Available: [Paleto-front](http://sc.npru.ac.th/article/file/1391930371.pdf)
+
+**Tools**
+[9] MLXTEND, *Association Rules Generation from Frequent Itemsets*.[Online] Available: [MLXTEND](http://rasbt.github.io/mlxtend/user_guide/frequent_patterns/association_rules/)
+
+**Process**
+[10] Coraline, *Data Science Process Cycle*.[Online] Available: [Coraline](https://www.coraline.co.th/single-post/2018/11/26/data-science-process-cycle)
 
