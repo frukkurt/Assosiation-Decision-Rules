@@ -315,7 +315,7 @@ From the correlation, it can be noted that `Taiwanese milk tea` tends to have a 
   <img width="1000" alt="Screen Shot 2564-09-05 at 23 54 52" src="https://user-images.githubusercontent.com/63940535/132134971-810ee51e-0efc-47f0-8302-5cb4a209942a.png">
 </p>
 
-## IV.Result 
+## III.Result 
 ### E.	Evaluation
 <img width="1000" alt="Screen Shot 2564-09-05 at 23 55 29" src="https://user-images.githubusercontent.com/63940535/132134988-b38fab73-3a99-460a-9924-20daad654444.png">
 
@@ -331,13 +331,13 @@ According to `Aassociation rules` , the base section `Strawberry Bingsu-> Bubble
 ``
 *NO DEPLOY IN THIS PROJECT
 ``
-## V.Conclusion & Discussion
+## IV.Conclusion & Discussion
 To adjust the Parameter:
 
   - `Association rules` that in finding the main bundle, Apriori-Algorithm and Fp-Growth get the same number of bundles. The set value is min_support = 0.01 because if more than that, the number of products that can be sold together will be very small, which will determine the It is difficult to correlate and min_threshold (confidence) = 0.01, because the minimum reliability of the rules is required. Some rules support very little, but the confidence is high. Pairs that should all be sold together and use the same min_threshold (confidence) = 0.01, because if the minimum trust of the resulting rule is changed, pairs under the same confidence will be lost. But in the process of unbundling, it is necessary to use Pareto front to help group the products that are probably not worth selling together.
   - `Pareto front` will set that This section is used to find the pareto front, which is often used in multi-objective problems. We have to set an objective, for example, which point in the graph is not dominated by other points, which is like a point. The set margins we will consider in this study use Pareto front to find both the bundle and the unbundle to take into account the set to be considered. For example, Lift and confidence are set to plot the graph between lift and confidence. If any point is at the bottom edge and is not overlapped by the others, it is pareto front. set to minimum (lift), minimum (confidence), or in confidence and support correlation, it is used as maximum (confidence). maximum. (Support correlation)
 
-## VI.References
+## V.References
 **BUNDLE & UNBUNDLE PRICING**
 [1] omniaretail.com,*What is Bundle Pricing?*,Omniaretail is dynamic pricing software ,retail software engineer and retail strategy consultant. [Online] Available: [omniaretail.com](https://www.omniaretail.com/blog/what-is-bundle-pricing)
 
