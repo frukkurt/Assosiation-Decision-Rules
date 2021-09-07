@@ -1,11 +1,13 @@
 
 # Decision Making for Assosiation Rules  
 
-<p align="center">
-  <img width="850" alt="Screen Shot 2564-09-06 at 02 12 39" src="https://user-images.githubusercontent.com/63940535/132138685-46c8a6a2-8b77-488b-bcda-39c0531b4dec.png">
-</p>
+![Business analysis technical Data cycle project (2)](https://user-images.githubusercontent.com/63940535/132392465-70ca65cd-ad1d-4b37-9679-33d5b3fa027f.gif)
+
+
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/frukkurt/Decision-Making-for-Assosiation-Rules/blob/main/DecisionMaking_for_AssociationRules.ipynb)
+
+
 
 
 ## I.Introduction
