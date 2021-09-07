@@ -357,9 +357,11 @@ To adjust the Parameter:
 
 [8] Paleto-front, *Multi-Objective Optimization using Evolutionary Algorithms*.[PDF] Available: [Paleto-front](http://sc.npru.ac.th/article/file/1391930371.pdf)
 
+
 **Tools**
 
 [9] MLXTEND, *Association Rules Generation from Frequent Itemsets*.[Online] Available: [MLXTEND](http://rasbt.github.io/mlxtend/user_guide/frequent_patterns/association_rules/)
+
 
 **Process**
 
