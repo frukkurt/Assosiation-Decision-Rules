@@ -25,11 +25,11 @@
 
 **There are 3 types of bundle pricing strategy**
 
-- 1. **Pure Bundling** is a price setting for products or services that are merged into a package and are not sold separately, such as package prices, travel, including insurance.
+-  **Pure Bundling** is a price setting for products or services that are merged into a package and are not sold separately, such as package prices, travel, including insurance.
 
-- 2. **Mixed Bundling** is to set the price of a product or service merged into a package, but the customer can choose whether to buy the whole package or buy one separately.
+-  **Mixed Bundling** is to set the price of a product or service merged into a package, but the customer can choose whether to buy the whole package or buy one separately.
 
-- 3. **Mix-leader Bundling** is the setting of prices provided that there is a special discount, eg a 50% discount on product or service B, but product or service A must be purchased at the normal price first. The purpose is to use Product B as a tool to help Product A, which is more profitable than selling.
+-  **Mix-leader Bundling** is the setting of prices provided that there is a special discount, eg a 50% discount on product or service B, but product or service A must be purchased at the normal price first. The purpose is to use Product B as a tool to help Product A, which is more profitable than selling.
 
 To show which products should be sold together (Bundle) and should not be sold together (Unbundle) using the principles of Association rules such as the Apriori algorithm, Fp-growth algorithm, Support Correlation to indicate which bundle or relationship product is the most interesting in selling to a couple few relationships should not be sold together.
 
